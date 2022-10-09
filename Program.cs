@@ -3,7 +3,7 @@ Console.Clear();
 
 Console.Write("Введите пятизначное число  ");
 string text = Convert.ToString (Console.ReadLine());
-string result = string.Empty;
+
 int length = text.Length;
 
     if (length==5)
